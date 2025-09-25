@@ -23,17 +23,14 @@ It covers **task, approach, setup, errors, fixes, and outcomes**.
 
 ---
 
-## 🏁 Setup from Zero
+## 🏁 Setup Agent from beginning on Windows
 
-# Download and extract agent
+### Download and extract agent
+```sh
 cd C:\agent
-
-# Configure agent
-config.cmd
-
-# Run interactively
-run.cmd
-
+config.cmd   # Configure agent
+run.cmd  # Run interactively
+```
 
 * Created **Azure DevOps Project**
 * Registered agent into **Default pool**
